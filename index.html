@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="maindiv">
+    <h1>Countdown Timer</h1>
+
+    <div class="fildate">
+      <label id="select" for="countdownDate">Select Countdown Date and Time</label>
+
+      <input type="datetime-local" id="countdownDate" placeholder="Select date and time">
+    </div>
+
+    <div class="countdown">
+
+      <div class="timer">
+
+        <div class="timerbox"><span id="day">00</span> day</div>
+        <div class="timerbox"><span id="hrs">00</span> hrs</div>
+        <div class="timerbox"><span id="min">00</span> min</div>
+        <div class="timerbox"><span id="sec">00</span> sec</div>
+
+        
+      </div>
+    </div>
+
+    <div class="countdown2">
+      
+    </div>
+
+
+    
+    <div class="progress-bar">
+        <div  id="progress-fill"></div>
+    </div>
+
+    <div class="button">
+      <button id="resetbutton">RESET</button>
+
+    </div>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>

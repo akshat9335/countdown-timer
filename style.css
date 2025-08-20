@@ -1,0 +1,194 @@
+body{ 
+ 
+  background-color: #023047;
+  color: #333;
+  text-align: center;
+  margin: 0;
+    padding: 0;
+    
+
+} 
+
+.maindiv {
+  max-width: 50%;
+  height: 50%vh;
+  margin: auto auto;
+  margin-top: 60px;
+  
+  padding: 20px;
+  background-color: #8ecae6;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    
+}
+h1 {
+  color: #03071e;
+  font-size: 4em;
+  margin-bottom: 20px;
+  font-style: italic;
+  margin-top: 50px;
+  
+  
+}
+
+.fildate {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+   
+}
+#select {
+   font-size: 20px;
+    font-weight: 800;
+    
+}
+
+#countdownDate {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+    width: 70%;
+    font-weight: 500;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.countdown{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.timer {
+  font-size: 2em;
+  margin-top: 20px;
+  gap: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  
+
+}
+
+.timerbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #333 1px solid;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0 10px;
+    font-size: larger;
+   /* background-color: #ffff3f;*/
+    position: relative;
+    width: 15%;
+
+  font-weight: 400;
+  font-size: 1.5em;
+  background: #ffeb3b;
+    color: #03071e;
+  
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.progress-bar {
+  width: 50%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+  border: #333 1px solid;
+  margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00f260, #0575e6);
+  width: 0%;
+  transition: width 0s liner;
+  
+  
+  position: relative;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+
+#resetbutton {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+#resetbutton:hover {
+  box-shadow: 0 4px 15px rgba(74, 0, 224, 0.5);
+}
+
+
+
+
+.countdown2{
+  font-size: 2.5em;
+  color: #03071e;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+
+  
+}
+
+@media (max-width: 400px) {
+  .maindiv {
+    width: 90%;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  .timerbox {
+    width: 10%;
+    font-size: medium;
+  }
+  
+  #countdownDate {
+    width: 70%;
+  }
+  
+  .progress-bar {
+    width: 80%;
+  }
+}
+
+@media(max-width:611px){
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  .countdown2 {
+    font-size: 2em;
+  }
+
+}
