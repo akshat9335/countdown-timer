@@ -10,7 +10,7 @@ body{
 } 
 
 .maindiv {
-  max-width: 50%;
+  width: 50%;
   height: 50%vh;
   margin: auto auto;
   margin-top: 60px;
@@ -22,7 +22,7 @@ body{
 
     
 }
-h1 {
+#h1 {
   color: #03071e;
   font-size: 4em;
   margin-bottom: 20px;
@@ -157,19 +157,35 @@ h1 {
   
 }
 
-@media (max-width: 400px) {
+@media(min-width:300px){
   .maindiv {
-    width: 90%;
-    padding: 10px;
+    width: 70%;
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
   }
   
-  h1 {
-    font-size: 2.5em;
+  #h1 {
+    font-size: 2.6em;
   }
   
   .timerbox {
-    width: 10%;
-    font-size: medium;
+    width: 20%;
+    font-size: larger;
+    height: 70px;
+    font-weight: 450;
+
+    
+  }
+
+  .timer {
+    
+    width: 40%;
   }
   
   #countdownDate {
@@ -178,17 +194,109 @@ h1 {
   
   .progress-bar {
     width: 80%;
+    height: 20px;
   }
 }
 
-@media(max-width:611px){
+@media (min-width: 400px) {
+  .maindiv {
+    width: 80%;
+    padding: 10px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
 
-  h1 {
+  }
+  
+  #h1 {
     font-size: 2.2em;
+  }
+  
+  .timerbox {
+    width: 20%;
+    font-size: larger;
+    height: 70px;
+    font-weight: 450;
+
+    
+  }
+
+  .timer {
+    
+    width: 80%;
+  }
+  
+  
+  #countdownDate {
+    width: 70%;
+  }
+  
+  .progress-bar {
+    width: 80%;
+    height: 20px;
+  }
+
+  .countdown{
+
+    width: 90%;
+    position: relative;
+    height: 90px; 
+  }
+  .countdown2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+
+}
+
+@media(min-width: 1004px) {
+  .maindiv {
+    width: 60%;
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+  }
+  
+  #h1 {
+    font-size: 5em;
+  }
+  
+  .timerbox {
+    width: 15%;
+    font-size: larger;
+    height: 70px;
+    font-weight: 450;
+
+    
+  }
+
+  .timer {
+    
+    width: 80%;
+  }
+  
+  #countdownDate {
+    width: 70%;
+  }
+  
+  .progress-bar {
+    width: 80%;
+    height: 20px;
   }
 
   .countdown2 {
-    font-size: 2em;
+    font-size: 2.4em;
   }
 
 }
+
+
+
