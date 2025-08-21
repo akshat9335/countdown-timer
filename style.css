@@ -159,24 +159,24 @@ body{
 
 @media(min-width:300px){
   .maindiv {
-    width: 70%;
-    height: 70vh;
+    width: 77%;
+    height: 80vh;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 30px;
 
   }
   
   #h1 {
-    font-size: 2.6em;
+    font-size: 2.1em;
   }
   
   .timerbox {
     width: 20%;
-    font-size: larger;
+    font-size: 25px;
     height: 70px;
     font-weight: 450;
 
@@ -193,8 +193,8 @@ body{
   }
   
   .progress-bar {
-    width: 80%;
-    height: 20px;
+    width: 60%;
+    height: 30px;
   }
 }
 
@@ -212,12 +212,12 @@ body{
   }
   
   #h1 {
-    font-size: 2.2em;
+    font-size: 2.6em;
   }
   
   .timerbox {
     width: 20%;
-    font-size: larger;
+    font-size: 25px;
     height: 70px;
     font-weight: 450;
 
@@ -235,7 +235,7 @@ body{
   }
   
   .progress-bar {
-    width: 80%;
+    width: 70%;
     height: 20px;
   }
 
